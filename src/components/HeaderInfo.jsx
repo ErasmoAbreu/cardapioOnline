@@ -1,4 +1,4 @@
-import imgLogo from '../assets/img/menuLogo.png'
+import imgLogo from '../../public/img/logo.png'
 import { FaStar } from "react-icons/fa";
 import { IsOpen } from './IsOpen';
 
