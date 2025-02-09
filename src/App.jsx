@@ -1,5 +1,6 @@
 import { Header } from "./components/Header"
 import { HeaderInfo } from "./components/HeaderInfo"
+import { MenuItem } from "./components/MenuItem"
 
 
 export const App = () => {
@@ -10,6 +11,10 @@ export const App = () => {
         <Header/>
         <HeaderInfo/>
       </header>
+
+      <nav>
+        <MenuItem/>
+      </nav>
     </>
 
   )

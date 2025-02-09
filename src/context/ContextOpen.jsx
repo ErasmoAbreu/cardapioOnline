@@ -13,7 +13,7 @@ const OpenProvider = ({children}) => {
     const hour = data.getHours()
 
     useEffect(() => {
-        if(hour >= 20 && hour <= 23) {
+        if(hour >= 13 && hour <= 23) {
             setIsOpen(true)
         }
     }, [])
